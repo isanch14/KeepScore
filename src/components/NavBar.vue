@@ -17,14 +17,14 @@
 
 <script>
 export default {
-  name: 'NavBar',
+  name: "NavBar",
   props: {
     ishome: {
       type: Boolean,
       default: true
     }
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>

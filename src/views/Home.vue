@@ -7,7 +7,7 @@
     >
       <div class="h-screen w-screen bg-red-800 opacity-75" />
       <div
-      class="absolute h-screen w-screen top-0 flex flex-col justify-center items-center"
+        class="absolute h-screen w-screen top-0 flex flex-col justify-center items-center"
       >
         <h1
           class="text-6xl font-bold text-black px-4 hover:bg-white hover:text-blue-800 opacity-75"
@@ -20,17 +20,17 @@
 </template>
 
 <script>
-import NavBar from '../components/NavBar'
-import bgImage from '../assets/baseballfire.jpg'
+import NavBar from "../components/NavBar";
+import bgImage from "../assets/baseballfire.jpg";
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
     NavBar
   },
   data() {
     return {
       bgImage
-    }
+    };
   }
-}
+};
 </script>

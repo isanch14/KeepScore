@@ -12,17 +12,17 @@
 </template>
 
 <script>
-import GithubCircle from 'vue-material-design-icons/GithubCircle'
-import Facebook from 'vue-material-design-icons/Facebook'
-import Twitter from 'vue-material-design-icons/Twitter'
+import GithubCircle from "vue-material-design-icons/GithubCircle";
+import Facebook from "vue-material-design-icons/Facebook";
+import Twitter from "vue-material-design-icons/Twitter";
 export default {
-  name: 'Footer',
+  name: "Footer",
   components: {
-      GithubCircle,
-      Facebook,
-      Twitter
+    GithubCircle,
+    Facebook,
+    Twitter
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>

@@ -6,11 +6,11 @@
 </template>
 
 <script>
-import Footer from './components/Footer'
+import Footer from "./components/Footer";
 export default {
-  name: 'MainApp',
+  name: "MainApp",
   components: {
     Footer
   }
-}
+};
 </script>
