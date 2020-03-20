@@ -1,7 +1,7 @@
 <template>
   <nav
     class="nav w-screen z-20 text-black"
-    :class="ishome ? '' : 'shadow-2xl bg-red-800'"
+    :class="ishome ? '' : 'shadow-2xl bg-blue-800'"
   >
     <div class="left">
       <span class="font-light text-3xl">
@@ -10,7 +10,7 @@
     </div>
     <div class="right">
       <router-link class="link" to="/">Home</router-link> |
-      <router-link class="link" to="/portfolio">Search</router-link>
+      <router-link class="link" to="/search">Login</router-link>
     </div>
   </nav>
 </template>
